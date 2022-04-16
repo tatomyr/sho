@@ -1,0 +1,33 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    // "target": "ES2020",
+    // "isolatedModules": true,
+    // "skipLibCheck": true,
+    "outDir": "./dist"
+    // "declaration": true,
+    // "allowJs": false,
+    // "allowUmdGlobalAccess": false,
+    // "allowUnreachableCode": false,
+    // "allowUnusedLabels": false,
+    // "alwaysStrict": true,
+    // "assumeChangesOnlyAffectDirectDependencies": false,
+    // "checkJs": false,
+    // "disableSizeLimit": false,
+    // "noFallthroughCasesInSwitch": false,
+    // "noImplicitAny": true,
+    // "noImplicitReturns": true,
+    // "noImplicitThis": true,
+    // "noImplicitUseStrict": false,
+    // "noStrictGenericChecks": false,
+    // "noUnusedLocals": false,
+    // "strict": true,
+    // "strictFunctionTypes": true,
+    // "strictNullChecks": true,
+    // "strictPropertyInitialization": true,
+    // "suppressExcessPropertyErrors": false,
+    // "suppressImplicitAnyIndexErrors": false
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.test.ts", "node_modules", "dist"]
+}
